@@ -6,9 +6,9 @@ import logo1 from '@/public/logo2.png'
 import Google from '@/public/Google.png'
 import Link from 'next/link';
 import { useState } from 'react';
-import { signInWithGoogle } from '@/lib/auth-actions';
-import { createClient } from "@/utils/supabase/client";
-import { signout } from "@/lib/auth-actions";
+import { signInWithGoogle } from '../lib/auth-actions';
+import { createClient } from "../utils/supabase/client";
+import { signout } from "../lib/auth-actions";
 import { useEffect } from "react";
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'

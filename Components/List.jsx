@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 import { PinataSDK } from "pinata";
 import Link from 'next/link';
 import Loader from './Loader';
-import { createClient } from '@/utils/supabase/client';
+import { createClient } from "../utils/supabase/client";
 
 const pinata = new PinataSDK({
     pinataJwt: process.env.NEXT_PUBLIC_PINATA_JWT,

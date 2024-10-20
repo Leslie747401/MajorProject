@@ -1,7 +1,7 @@
 import List from "../Components/List"
 import Navbar from "../Components/Navbar";
 import UploadCard from "../Components/UploadCard";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../Components/ui/tabs"
 
 
 export default function Home() {
