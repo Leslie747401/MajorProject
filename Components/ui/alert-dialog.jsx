@@ -4,7 +4,7 @@ import * as React from "react";
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
 import { Inter } from "next/font/google";
 import { cn } from "../../lib/utils"
-import { buttonVariants } from "../Components/ui/button";
+import { buttonVariants } from "../../Components/ui/button"
 
 const inter = Inter({ subsets: ["latin"] });
 
