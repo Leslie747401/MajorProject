@@ -19,7 +19,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '../components/ui/alert-dialog'
+} from '../Components/ui/alert-dialog'
 import { createClient } from '../utils/supabase/client';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
