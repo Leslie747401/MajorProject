@@ -8,7 +8,7 @@ import { X } from 'lucide-react';
 import { PinataSDK } from "pinata";
 import Loader from './Loader';
 import Image from 'next/image';
-import ImageIcon from '@/public/image.png'
+import ImageIcon from '../public/image.png'
 
 import {
   AlertDialog,
@@ -19,8 +19,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@/components/ui/alert-dialog'
-import { createClient } from '@/utils/supabase/client';
+} from '../components/ui/alert-dialog'
+import { createClient } from '../utils/supabase/client';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 
